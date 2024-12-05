@@ -1,0 +1,182 @@
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+.user-list-container.btn {
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.user-list-container.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white
+}
+
+.user-list-container.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+ 
+}
+
+.user-list-container.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+
+.user-list-container.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+  color: #fff;
+}
+/* User Form */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+
+
+
+.form-group button[type="submit"],
+button[type="button"] {
+  margin-right: 10px;
+}
+
+/* User List */
+.user-list-container {
+  margin: 20px auto;
+  max-width: 800px;
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.form-group.btn-primary {
+  margin-bottom: 20px;
+}
+
+.edit-form-container {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: black;
+
+}
+
+
+td {
+  text-align: left;
+  padding: 10px;
+  color: black;
+
+}
+
+th {
+
+  color: blue;
+}
+table tbody th{
+  color: black;
+}
+tbody tr:hover {
+  color: black;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+ 
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #80bdff;
+ 
+  color: black;
+}
+input[type="email"]:hover,input[type="text"]:hover,input[type="number"]:hover {
+  box-shadow: 0 0 0 0.2rem rgb(97, 21, 218);
+
+}
+.is-invalid {
+  border-color: #dc3545;
+}
+
+.invalid-feedback {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    color: black;
+  }
+
+  .col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: black;
+  }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    color: black;
+  }
+}
+th[scope="col"] {
+  color: black;
+}

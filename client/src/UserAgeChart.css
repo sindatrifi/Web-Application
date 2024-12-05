@@ -1,0 +1,87 @@
+.user-age-chart-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .visualisation-bar {
+    flex: 1;
+    margin-right: 20px;
+  }
+  .offre-pie-chart{
+ width: 30%;
+  margin-right: 50px;
+}
+.offre-bar-chart{
+    width: 70%;
+  
+}
+
+  .chart-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chart-section > div:first-child {
+    margin-bottom: 20px;
+  }
+  
+  .chart-title {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    text-align: center;
+    color:#5d52ba;
+  }
+  .titrechart{
+    text-align: center;
+  }
+  .marge{
+    margin-left:50px;
+  }
+  .margebar{
+    width: 70%;
+  }
+  .employee-number {
+    background-color: #5d52ba;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  
+  .chart-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .bar-chart {
+    width: 70%;
+    margin-left: -90px;
+  }
+  .employeeentretien-bar-chart{
+    width: 100%;
+    height: 100%;
+    margin-left: -35px;
+  }
+ .formation-bar-chart{
+  width: 100%;
+    height: 100%;
+  margin-left: -250px;
+ }
+  .pie-chart {
+    width: 40%;
+    margin-top: -50px;
+  }
+  .Doughnut-chart{
+    width: 40%;
+   
+  }
+  .entretien-Doughnut-chart{
+    width: 40%;
+  }
+  .loading-message {
+    font-style: italic;
+  }

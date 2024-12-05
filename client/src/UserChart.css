@@ -1,0 +1,81 @@
+.custom-user-age-chart-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .visualisation-bar {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .custom-chart-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .offre-line-chart{
+    width: 90%;
+ 
+  }
+  .custom.chart-section > div:first-child {
+    margin-bottom: 20px;
+  }
+  
+  .custom.chart-title {
+    font-size: 1.2rem;
+    text-align: center;
+    color:#5d52ba;
+  }
+  
+  .custom-employee-number {
+    background-color: #5d52ba;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  .customdata-employee-number {
+    background-color: #5d52ba;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .custom-chart-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .custom-bar-chart {
+    width: 70%;
+    margin-left: -90px;
+  }
+  
+  .custom-pie-chart {
+    width: 30%;
+    margin-right: 50px;
+  }
+  
+  .custom-loading-message {
+    font-style: italic;
+  }
+  .custom-line-chart{
+    width:70%;
+    height: 70%;
+  }
+  .candidat-Doughnut-chart{
+    width:5%
+  }
+  .number{
+    background-color:#5d52ba ;
+ color: white;
+ font-size: 18px;
+
+  }

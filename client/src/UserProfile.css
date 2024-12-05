@@ -1,0 +1,25 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+.buttonprofile{
+  display: flex;
+  justify-content: space-between;
+}
